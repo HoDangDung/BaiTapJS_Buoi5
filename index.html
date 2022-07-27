@@ -23,7 +23,7 @@
             <div class="card-body">
                 <div class="form-group">
                     <label for="">Điểm chuẩn</label>
-                    <input type="text" class="form-control" name="" id="diemChuan">
+                    <input type="number" class="form-control" name="" id="diemChuan">
                 </div>
 
                 <select id="khuVuc" class="px-3 py-1 mr-2">
@@ -41,17 +41,17 @@
 
                 <div class="form-group">
                     <label for="">Điểm môn thứ 1</label>
-                    <input type="text" class="form-control" name="" id="diem1">
+                    <input type="number" class="form-control" name="" id="diem1">
                 </div>
 
                 <div class="form-group">
                     <label for="">Điểm môn thứ 2</label>
-                    <input type="text" class="form-control" name="" id="diem2">
+                    <input type="number" class="form-control" name="" id="diem2">
                 </div>
 
                 <div class="form-group">
                     <label for="">Điểm môn thứ 3</label>
-                    <input type="text" class="form-control" name="" id="diem3">
+                    <input type="number" class="form-control" name="" id="diem3">
                 </div>
 
                 <button onclick="ketQua()" class="btn btn-secondary">Kết Quả</button>
@@ -72,10 +72,19 @@
                 Tính tiền điện
             </div>
             <div class="card-body">
-                <h4 class="card-title">Title</h4>
-                <p class="card-text">Text</p>
+                <div class="form-group">
+                  <label for="">Nhập họ tên</label>
+                  <input type="text" class="form-control" name="" id="name">
+                </div>
+
+                <div class="form-group">
+                    <label for="">Nhập số kw</label>
+                    <input type="number" class="form-control" name="" id="kw">
+                  </div>
+
+                  <button onclick="tinhTienDien()" class="btn btn-danger">Tính tiền điện</button>
             </div>
-            <div class="card-footer text-muted">
+            <div id="tinhTienDien" class="card-footer text-muted">
                 Hồ Đăng Dũng
             </div>
         </div>
