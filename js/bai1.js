@@ -21,7 +21,7 @@ function ketQua() {
     let ketQua = diem1 + diem2 + diem3 + doiTuong + khuVuc;
 
     document.getElementById("ketQua").innerHTML = tinhDiem(diemChuan, diem1, diem2, diem3, ketQua);
-    document.document.getElementById("ketQua").className = "bg-success card-footer text-white"
+    document.getElementById("ketQua").className = "bg-success card-footer text-white"
 }
 
 function tinhDiem(diemChuan, diem1, diem2, diem3, ketQua) {
